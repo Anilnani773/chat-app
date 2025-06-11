@@ -1,4 +1,3 @@
-
 ## MERN Real-Time Chat App
 
 A full-stack **real-time chat application** built using **MERN**, **Socket.io**, **TailwindCSS**, and **DaisyUI**. This app supports real-time messaging, JWT-based authentication, global state with Zustand, image uploads, and is fully deployable for free.
@@ -49,18 +48,18 @@ npm install
 
 ## ⚙️ Environment Setup
 
-Create a `.env` file inside the `server` directory and paste:
-
-```env
-MONGODB_URI=your_mongodb_uri
-PORT=5001
-JWT_SECRET=your_jwt_secret
-
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-
-NODE_ENV=development
+    Create a `.env` file inside the `server` directory and paste:
+    
+    ```env
+    MONGODB_URI=your_mongodb_uri
+    PORT=5001
+    JWT_SECRET=your_jwt_secret
+    
+    CLOUDINARY_CLOUD_NAME=your_cloud_name
+    CLOUDINARY_API_KEY=your_cloudinary_api_key
+    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+    
+    NODE_ENV=development
 
 
 ## ⚒️ Build the App
@@ -74,3 +73,9 @@ npm run build
 
 # From backend directory
 npm start
+
+
+
+
+
+
